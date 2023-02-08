@@ -1,24 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="198" started-at="2023-01-08T11:56:09Z" finished-at="2023-01-08T11:56:09Z">
+  <suite name="Suite" duration-ms="95307" started-at="2023-02-03T11:03:26Z" finished-at="2023-02-03T11:05:01Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="198" started-at="2023-01-08T11:56:09Z" finished-at="2023-01-08T11:56:09Z">
-      <class name="xmlParameterization.PracticeTest">
-        <test-method status="PASS" signature="demoTest(org.testng.xml.XmlTest)[pri:0, instance:xmlParameterization.PracticeTest@70e8f8e]" name="demoTest" duration-ms="40" started-at="2023-01-08T17:26:09Z" finished-at="2023-01-08T17:26:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[Test: "Test" verbose:1[parameters:][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=xmlParameterization.PracticeTest]  packages:] ]]>
-              </value>
-            </param>
-          </params>
+    <test name="Test1" duration-ms="54644" started-at="2023-02-03T11:03:26Z" finished-at="2023-02-03T11:04:21Z">
+      <class name="seleniumGrid.Practice1">
+        <test-method status="PASS" signature="demo()[pri:0, instance:seleniumGrid.Practice1@654f0d9c]" name="demo" duration-ms="54598" started-at="2023-02-03T16:33:26Z" finished-at="2023-02-03T16:34:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- demoTest -->
-      </class> <!-- xmlParameterization.PracticeTest -->
-    </test> <!-- Test -->
+        </test-method> <!-- demo -->
+      </class> <!-- seleniumGrid.Practice1 -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="24583" started-at="2023-02-03T11:04:21Z" finished-at="2023-02-03T11:04:46Z">
+      <class name="seleniumGrid.Practice1">
+        <test-method status="PASS" signature="demo()[pri:0, instance:seleniumGrid.Practice1@41e36e46]" name="demo" duration-ms="24577" started-at="2023-02-03T16:34:21Z" finished-at="2023-02-03T16:34:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+      </class> <!-- seleniumGrid.Practice1 -->
+    </test> <!-- Test2 -->
+    <test name="Test3" duration-ms="15137" started-at="2023-02-03T11:04:46Z" finished-at="2023-02-03T11:05:01Z">
+      <class name="seleniumGrid.Practice1">
+        <test-method status="PASS" signature="demo()[pri:0, instance:seleniumGrid.Practice1@72f926e6]" name="demo" duration-ms="15131" started-at="2023-02-03T16:34:46Z" finished-at="2023-02-03T16:35:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+      </class> <!-- seleniumGrid.Practice1 -->
+    </test> <!-- Test3 -->
   </suite> <!-- Suite -->
 </testng-results>

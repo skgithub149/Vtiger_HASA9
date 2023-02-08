@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="3">
+	<test name="Test1">
+		<classes>
+			<class name="distributedParallel.SecondTest" />
+			<class name="distributedParallel.FirstTest" />
+		</classes>
+	</test> <!-- Test-->
+	<test name="Test2">
+		<classes>
+			<class name="distributedParallel.FifthTest" />
+			<class name="distributedParallel.ThirdTest" />
+		</classes>
+	</test> <!-- Test-->
+	<test name="Test3">
+		<classes>
+			<class name="distributedParallel.SixthTest" />
+			<class name="distributedParallel.FourthTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
